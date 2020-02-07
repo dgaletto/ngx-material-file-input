@@ -239,9 +239,9 @@
           },
           "configurations": {
             "production": {
-              "project": "libs/material-file-input/ng-package.prod.json"
-            ,              "tsConfig": "libs/material-file-input/tsconfig.lib.prod.json"
-}
+              "project": "libs/material-file-input/ng-package.prod.json",
+              "tsConfig": "libs/material-file-input/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -274,6 +274,7 @@
       "typescriptMismatch": false,
       "versionMismatch": false
     },
-    "defaultCollection": "@nrwl/angular"
+    "defaultCollection": "@nrwl/angular",
+    "analytics": false
   }
 }
